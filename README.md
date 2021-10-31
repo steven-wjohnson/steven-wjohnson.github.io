@@ -14,7 +14,7 @@ Non functional requirements:
 
 The page should be easy to read so that users can find what they are looking for.
 The page should be mobile ready so it can be accessed on many devices on the web.
-The page should have as few dependencies so that no more than an hour a week is required to maintain it. 
+The page should have few dependencies so that no more than an hour a week is required to maintain it. 
 The page should load in less than 3 seconds on any modern browser.
 The page should be hosted with Github Pages to enable easy and affordable maintenance.
 The page should require no more than 2 clicks to get to any important information from anywhere. 
