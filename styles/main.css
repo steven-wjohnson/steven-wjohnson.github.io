@@ -1,6 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: 	#073642;
     margin: 0;
+    padding-top: 5em;
 }
 
 h1{
@@ -8,35 +12,15 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.navbar {
-    display:flex;
-    align-items: center;
-    width: 100%;
+.navbar-custom {
+    background-color: #002b36;
 }
 
-.navbar-background {
-    background: #002b36;
-    width: 100%;
-    min-width: 100%;
-    border-bottom: 1px solid transparent;
-    box-shadow: 5px 5px 15px #002b36;
-}
-
-.logo {
-    padding: 1%;
-    margin-right: 1%;
-}
-
-.logo-text {
+.navbar-custom .navbar-brand{
+    color: rgb(181, 245, 224);
     font-family: 'Rock Salt', cursive;
     font-weight: bolder;
     font-size: 200%;
-    color: rgb(181, 245, 224);
-}
-
-.nav-item {
-    padding: 1%;
-    margin-right: 2%;
 }
 
 .link-text {
@@ -44,4 +28,22 @@ h1{
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: whitesmoke;
     text-decoration: none;
+}
+
+.titles{
+    font-family: 'Roboto', sans-serif;
+    font-size: 400%;
+    font-weight: 700;
+    color: white;
+}
+
+.descriptions {
+    font-family: 'Roboto', sans-serif;
+    font-size: 175%;
+    font-weight: 400;
+    color: white;
+}
+
+.bg-sections{
+    background-color: #022129;
 }
