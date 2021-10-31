@@ -1,0 +1,47 @@
+body {
+    background-color: 	#073642;
+    margin: 0;
+}
+
+h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    display:flex;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-background {
+    background: #002b36;
+    width: 100%;
+    min-width: 100%;
+    border-bottom: 1px solid transparent;
+    box-shadow: 5px 5px 15px #002b36;
+}
+
+.logo {
+    padding: 1%;
+    margin-right: 1%;
+}
+
+.logo-text {
+    font-family: 'Rock Salt', cursive;
+    font-weight: bolder;
+    font-size: 200%;
+    color: rgb(181, 245, 224);
+}
+
+.nav-item {
+    padding: 1%;
+    margin-right: 2%;
+}
+
+.link-text {
+    font-size: 135%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    text-decoration: none;
+}
