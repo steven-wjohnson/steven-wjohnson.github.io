@@ -1,10 +1,11 @@
 html {
     scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 body {
     background-color: 	#073642;
     margin: 0;
-    padding-top: 5em;
+    padding-top: 8rem;
 }
 
 h1{
@@ -20,11 +21,11 @@ h1{
     color: rgb(181, 245, 224);
     font-family: 'Rock Salt', cursive;
     font-weight: bolder;
-    font-size: 200%;
+    font-size: 3.4rem;
 }
 
 .link-text {
-    font-size: 135%;
+    font-size: 2.4rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: whitesmoke;
     text-decoration: none;
@@ -32,14 +33,14 @@ h1{
 
 .titles{
     font-family: 'Roboto', sans-serif;
-    font-size: 400%;
+    font-size: 6.4rem;
     font-weight: 700;
     color: white;
 }
 
 .descriptions {
     font-family: 'Roboto', sans-serif;
-    font-size: 175%;
+    font-size: 3.2rem;
     font-weight: 400;
     color: white;
 }
