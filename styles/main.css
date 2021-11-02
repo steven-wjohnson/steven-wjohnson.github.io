@@ -5,13 +5,17 @@ html {
 body {
     background-color: 	#073642;
     margin: 0;
-    padding-top: 8rem;
 }
 
 h1{
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+nav {
+    margin-bottom: 1em;
+}
+
 
 .navbar-custom {
     background-color: #002b36;
@@ -22,6 +26,7 @@ h1{
     font-family: 'Rock Salt', cursive;
     font-weight: bolder;
     font-size: 3.4rem;
+    margin-right: 2em;
 }
 
 .link-text {
@@ -36,15 +41,52 @@ h1{
     font-size: 6.4rem;
     font-weight: 700;
     color: white;
+    background-color: #002b36;
+    padding: 1rem;
 }
 
 .descriptions {
     font-family: 'Roboto', sans-serif;
-    font-size: 3.2rem;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
     font-weight: 400;
-    color: white;
+    color:white;
 }
 
 .bg-sections{
     background-color: #022129;
+}
+
+.skills-cards {
+    width: 20rem;
+}
+
+.solid-divider {
+    border-top: 2px solid #eee;
+}
+
+/* .text-chunk {
+    background-color: #002b36;
+    padding: 2em;
+    border-radius: 30px;
+} */
+
+.title-icon {
+    font-size: 10rem;
+    font-weight: 700;
+    color: white;
+}
+
+.skill-list-item {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: white;
+    list-style: none;
+}
+
+.sub-titles{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4.4rem;
+    font-weight: 700;
+    color: white;
 }
