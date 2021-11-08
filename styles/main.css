@@ -18,7 +18,7 @@ nav {
 
 
 .navbar-custom {
-    background-color: #002b36;
+    background-color: #022129;
 }
 
 .navbar-custom .navbar-brand{
@@ -37,11 +37,11 @@ nav {
 }
 
 .titles{
-    font-family: 'Roboto', sans-serif;
+    font-family:'Courier New', Courier, monospace;
     font-size: 6.4rem;
     font-weight: 700;
     color: white;
-    background-color: #002b36;
+    background-color: #022129;
     padding: 1rem;
 }
 
@@ -54,7 +54,7 @@ nav {
 }
 
 .bg-sections{
-    background-color: #022129;
+    background-color: #002b36;
 }
 
 .solid-divider {
@@ -63,7 +63,7 @@ nav {
 
 .sub-titles{
     font-family: 'Roboto', sans-serif;
-    font-size: 4.4rem;
+    font-size: 3.6rem;
     font-weight: 700;
     color: white;
 }
@@ -105,4 +105,14 @@ nav {
     text-align: center;
     border-right: 2px solid #073642;
     border-bottom: 2px solid #073642;
+}
+
+.projects-entry {
+    padding: 2rem 2rem;
+    border-bottom: 2px solid #073642;
+}
+
+.btn-projects {
+    width: 10rem;
+    font-size: 1.6rem;
 }
