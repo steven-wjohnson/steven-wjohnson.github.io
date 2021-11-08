@@ -57,31 +57,8 @@ nav {
     background-color: #022129;
 }
 
-.skills-cards {
-    width: 20rem;
-}
-
 .solid-divider {
     border-top: 2px solid #eee;
-}
-
-/* .text-chunk {
-    background-color: #002b36;
-    padding: 2em;
-    border-radius: 30px;
-} */
-
-.title-icon {
-    font-size: 10rem;
-    font-weight: 700;
-    color: white;
-}
-
-.skill-list-item {
-    font-size: 2.4rem;
-    font-weight: 700;
-    color: white;
-    list-style: none;
 }
 
 .sub-titles{
@@ -89,4 +66,43 @@ nav {
     font-size: 4.4rem;
     font-weight: 700;
     color: white;
+}
+
+.skills-label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.6rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.skills-label-div {
+    background-color: #002b36;
+    padding-top: 4.4rem;
+    border-bottom: 2px solid #073642;
+}
+
+.content-block {
+    margin-bottom: 2rem;
+}
+
+.text-block {
+    padding-top: 2rem;
+    padding-right: 2rem;
+}
+
+.title-icon {
+    font-size: 10rem;
+    font-weight: 700;
+    color: white;
+    padding: 1.5rem 5rem;
+    float: left;
+}
+
+.skills-icon {
+    background-color: #002b36; 
+    text-align: center;
+    border-right: 2px solid #073642;
+    border-bottom: 2px solid #073642;
 }

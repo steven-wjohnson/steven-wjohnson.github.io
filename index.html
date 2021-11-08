@@ -26,69 +26,101 @@
             <div class="navbar nav">
                 <a class="nav-link link-text" href="#about">About</a>
                 <a class="nav-link link-text" href="#skills">Skills</a>
-                <a class="nav-link link-text" href="#">Projects</a>
+                <a class="nav-link link-text" href="#projects">Projects</a>
             </div>    
         </div>
     </div>
 </nav>
 <body>
-    <div class="container" id="about">
+    <div class="container content-block" id="about">
         <article>
             <h1 class="titles">About</h1>
             <hr class="solid-divider">
-            <div class="text-chunk">
                 <div class="container">
-                    <div class="row">
-                        <div class="col col-lg-4">
-                            <h2 class="title-icon"><i class="fas fa-user-circle"></i></h2>
-                            <p class="descriptions">
-                                My name is Steven and I have been developing native and web based software since 2015. I recently graduated with a Bachelor of Science in Computer Science. 
-                            </p>
-                        </div>
-                        <div class="col col-lg-8">
-                            <p class="descriptions">
-                                My journey into software began with two years at a technical college building applications in Java and C#. I developed progressive knowledge of web frameworks like ASP.NET
-                                and Spring, as well as how to build and maintain databases with Tomcat and Microsoft Sql Server.
-                            </p>
-                            <p class="descriptions">
-                                I later went on to continue my education at the University of Wisconsin - River Falls where I built a strong foundation of knowledge about object oriented programming,
-                                algorithms and data structures, shells and bash scripting, operating systems, and software engineering practices like the software
-                                development life cycle and agile development practices. 
-                            </p>
-                            <p class="descriptions">
-                                My goal is to turn my passion for software and problem solving into a career that allows me to build solutions for business challenges. 
-                                If you have an open role to be filled, I would encourage you to take a look around this site and
-                                check out some of my projects, or reach out through any of the provided means of contact.
-                            </p>
-                        </div>
+                    <h2 class="title-icon"><i class="fas fa-user-circle fa-lg"></i></h2>
+                    <div class="text-block">
+                        <p class="descriptions">
+                            My name is Steven and I have been developing native and web based software since 2015. I recently graduated with a Bachelor of Science in Computer Science. 
+                            My journey into software began with two years at a technical college building applications in Java and C#. I developed progressive knowledge of web frameworks like ASP.NET
+                            and Java Enterprise Edition, as well as how to build and maintain databases with Tomcat and Microsoft Sql Server.
+                        </p>
+                        <p class="descriptions">
+                            I later went on to continue my education at the University of Wisconsin - River Falls where I built a strong foundation of knowledge about object oriented programming,
+                            algorithms and data structures, shells and bash scripting, operating systems, and software engineering practices like the software
+                            development life cycle and agile development practices. 
+                            My goal is to turn my passion for software and problem solving into a career that allows me to build solutions for business challenges. 
+                            If you have an open role to be filled, I would encourage you to take a look around this site and
+                            check out some of my projects, or reach out through any of the provided means of contact.
+                        </p>
                     </div>
                 </div>
-            </div>
         </article>
     </div>
-    <div class="container">
+    <div class="container content-block" id="skills">
         <section>
-            <h1 class="titles" id="skills">Skills</h1>
+            <h1 class="titles">Skills</h1>
             <hr class="solid-divider">
             <div class="container">
                 <div class="row">
-                    <div class="col col-lg-3">
+                    <div class="col col-lg-4 skills-icon">
                         <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMTQ0IiBoZWlnaHQ9IjE0NCIKdmlld0JveD0iMCAwIDQ4IDQ4IgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxwYXRoIGZpbGw9IiNGNDQzMzYiIGQ9Ik0yMy42NSwyNC44OThjLTAuOTk4LTEuNjA5LTEuNzIyLTIuOTQzLTIuNzI1LTUuNDU1QzE5LjIyOSwxNS4yLDMxLjI0LDExLjM2NiwyNi4zNywzLjk5OWMyLjExMSw1LjA4OS03LjU3Nyw4LjIzNS04LjQ3NywxMi40NzNDMTcuMDcsMjAuMzcsMjMuNjQ1LDI0Ljg5OCwyMy42NSwyNC44OTh6Ij48L3BhdGg+PHBhdGggZmlsbD0iI0Y0NDMzNiIgZD0iTTIzLjg3OCwxNy4yN2MtMC4xOTIsMi41MTYsMi4yMjksMy44NTcsMi4yOTksNS42OTVjMC4wNTYsMS40OTYtMS40NDcsMi43NDMtMS40NDcsMi43NDNzMi43MjgtMC41MzYsMy41NzktMi44MThjMC45NDUtMi41MzQtMS44MzQtNC4yNjktMS41NDgtNi4yOThjMC4yNjctMS45MzgsNi4wMzEtNS41NDMsNi4wMzEtNS41NDNTMjQuMzExLDExLjYxMSwyMy44NzgsMTcuMjd6Ij48L3BhdGg+PGc+PHBhdGggZmlsbD0iIzE1NjVDMCIgZD0iTTMyLjA4NCAyNS4wNTVjMS43NTQtLjM5NCAzLjIzMy43MjMgMy4yMzMgMi4wMSAwIDIuOTAxLTQuMDIxIDUuNjQzLTQuMDIxIDUuNjQzczYuMjI1LS43NDIgNi4yMjUtNS41MDVDMzcuNTIxIDI0LjA1MyAzNC40NjQgMjMuMjY2IDMyLjA4NCAyNS4wNTV6TTI5LjEyOSAyNy4zOTVjMCAwIDEuOTQxLTEuMzgzIDIuNDU4LTEuOTAyLTQuNzYzIDEuMDExLTE1LjYzOCAxLjE0Ny0xNS42MzguMjY5IDAtLjgwOSAzLjUwNy0xLjYzOCAzLjUwNy0xLjYzOHMtNy43NzMtLjExMi03Ljc3MyAyLjE4MUMxMS42ODMgMjguNjk1IDIxLjg1OCAyOC44NjYgMjkuMTI5IDI3LjM5NXoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMTU2NUMwIiBkPSJNMjcuOTM1LDI5LjU3MWMtNC41MDksMS40OTktMTIuODE0LDEuMDItMTAuMzU0LTAuOTkzYy0xLjE5OCwwLTIuOTc0LDAuOTYzLTIuOTc0LDEuODg5YzAsMS44NTcsOC45ODIsMy4yOTEsMTUuNjMsMC41NzJMMjcuOTM1LDI5LjU3MXoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMTU2NUMwIiBkPSJNMTguNjg2LDMyLjczOWMtMS42MzYsMC0yLjY5NSwxLjA1NC0yLjY5NSwxLjgyMmMwLDIuMzkxLDkuNzYsMi42MzIsMTMuNjI3LDAuMjA1bC0yLjQ1OC0xLjYzMkMyNC4yNzEsMzQuNDA0LDE3LjAxNCwzNC41NzksMTguNjg2LDMyLjczOXoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMTU2NUMwIiBkPSJNMzYuMjgxLDM2LjYzMmMwLTAuOTM2LTEuMDU1LTEuMzc3LTEuNDMzLTEuNTg4YzIuMjI4LDUuMzczLTIyLjMxNyw0Ljk1Ni0yMi4zMTcsMS43ODRjMC0wLjcyMSwxLjgwNy0xLjQyNywzLjQ3Ny0xLjA5M2wtMS40Mi0wLjgzOUMxMS4yNiwzNC4zNzQsOSwzNS44MzcsOSwzNy4wMTdDOSw0Mi41MiwzNi4yODEsNDIuMjU1LDM2LjI4MSwzNi42MzJ6Ij48L3BhdGg+PHBhdGggZmlsbD0iIzE1NjVDMCIgZD0iTTM5LDM4LjYwNGMtNC4xNDYsNC4wOTUtMTQuNjU5LDUuNTg3LTI1LjIzMSwzLjA1N0MyNC4zNDEsNDYuMTY0LDM4Ljk1LDQzLjYyOCwzOSwzOC42MDR6Ij48L3BhdGg+PC9nPjwvc3ZnPg=="/>
+
                     </div>
-                    <div class="col col-lg-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="150" height="150" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#9b59b6"><path d="M86,6.88c-2.45906,0 -4.91812,0.61813 -7.10844,1.85438l-57.9425,32.55906c-4.43438,2.48594 -7.18906,7.14875 -7.18906,12.1475v65.11813c0,4.99875 2.75469,9.66156 7.18906,12.1475l57.9425,32.55906c2.19031,1.23625 4.64937,1.85437 7.10844,1.85437c2.45906,0 4.91813,-0.61812 7.10844,-1.85437l57.9425,-32.54563c4.43438,-2.49937 7.18906,-7.16219 7.18906,-12.16094v-65.11813c0,-4.99875 -2.75469,-9.66156 -7.18906,-12.1475l-57.9425,-32.55906c-2.19031,-1.23625 -4.64937,-1.85438 -7.10844,-1.85438zM86,44.72c13.0075,0 25.03406,6.03344 32.82781,16.29969l-15.07688,8.73438c-4.52844,-4.95844 -10.965,-7.83406 -17.75094,-7.83406c-13.27625,0 -24.08,10.80375 -24.08,24.08c0,13.27625 10.80375,24.08 24.08,24.08c6.78594,0 13.2225,-2.87562 17.75094,-7.83406l15.07688,8.73438c-7.79375,10.26625 -19.82031,16.29969 -32.82781,16.29969c-22.76312,0 -41.28,-18.51687 -41.28,-41.28c0,-22.76312 18.51688,-41.28 41.28,-41.28zM120.4,68.8h6.88v6.88h6.88v-6.88h6.88v6.88h6.88v6.88h-6.88v6.88h6.88v6.88h-6.88v6.88h-6.88v-6.88h-6.88v6.88h-6.88v-6.88h-6.88v-6.88h6.88v-6.88h-6.88v-6.88h6.88zM127.28,82.56v6.88h6.88v-6.88z"></path></g></g></svg>
+                    <div class="col col-lg-8 skills-label-div"> 
+                        <h3 class="skills-label">Java and Java EE</h3>
                     </div>
-                    <div class="col col-lg-3">
+                </div>
+                <div class="row">
+                    <div class="col col-lg-4 skills-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="144" height="144" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#9b59b6"><path d="M86,6.88c-2.45906,0 -4.91812,0.61813 -7.10844,1.85438l-57.9425,32.55906c-4.43438,2.48594 -7.18906,7.14875 -7.18906,12.1475v65.11813c0,4.99875 2.75469,9.66156 7.18906,12.1475l57.9425,32.55906c2.19031,1.23625 4.64937,1.85437 7.10844,1.85437c2.45906,0 4.91813,-0.61812 7.10844,-1.85437l57.9425,-32.54563c4.43438,-2.49937 7.18906,-7.16219 7.18906,-12.16094v-65.11813c0,-4.99875 -2.75469,-9.66156 -7.18906,-12.1475l-57.9425,-32.55906c-2.19031,-1.23625 -4.64937,-1.85438 -7.10844,-1.85438zM86,44.72c13.0075,0 25.03406,6.03344 32.82781,16.29969l-15.07688,8.73438c-4.52844,-4.95844 -10.965,-7.83406 -17.75094,-7.83406c-13.27625,0 -24.08,10.80375 -24.08,24.08c0,13.27625 10.80375,24.08 24.08,24.08c6.78594,0 13.2225,-2.87562 17.75094,-7.83406l15.07688,8.73438c-7.79375,10.26625 -19.82031,16.29969 -32.82781,16.29969c-22.76312,0 -41.28,-18.51687 -41.28,-41.28c0,-22.76312 18.51688,-41.28 41.28,-41.28zM120.4,68.8h6.88v6.88h6.88v-6.88h6.88v6.88h6.88v6.88h-6.88v6.88h6.88v6.88h-6.88v6.88h-6.88v-6.88h-6.88v6.88h-6.88v-6.88h-6.88v-6.88h6.88v-6.88h-6.88v-6.88h6.88zM127.28,82.56v6.88h6.88v-6.88z"></path></g></g></svg>
+                        
+                    </div>
+                    <div class="col col-lg-8 skills-label-div">
+                        <h3 class="skills-label">C# and ASP.NET</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-lg-4 skills-icon">
                         <img src="https://img.icons8.com/color/144/000000/nodejs.png"/>
                     </div>
-                    <div class="col col-lg-3">
+                    <div class="col col-lg-8 skills-label-div">
+                        <h3 class="skills-label">Node and Express</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-lg-4 skills-icon">
                         <img src="https://img.icons8.com/color/144/000000/javascript--v1.png"/>
                     </div>
-
+                    <div class="col col-lg-8 skills-label-div">
+                        <h3 class="skills-label">Javascript</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-lg-4 skills-icon">
+                        <img src="https://img.icons8.com/color/144/000000/microsoft-sql-server.png"/>
+                    </div>
+                    <div class="col col-lg-8 skills-label-div">
+                        <h3 class="skills-label">Microsoft Sql Server</h3>
+                    </div>
                 </div>
             </div>
-                
-            
+        </section>
+    </div>
+
+    <div class="container content-block" id="projects">
+        <section>
+            <h1 class="titles">Projects</h1>
+            <hr class="solid-divider">
+
+            <!-- <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+              </div> -->
             
         </section>
     </div>
