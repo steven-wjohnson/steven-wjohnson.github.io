@@ -16,6 +16,11 @@ nav {
     margin-bottom: 1em;
 }
 
+footer {
+    background-color: #022129;
+    text-align: center;
+}
+
 
 .navbar-custom {
     background-color: #022129;
@@ -124,6 +129,20 @@ nav {
     object-fit: cover;
     object-position: 50% 50%;
 }
+
+.socials-icons {
+    font-size: 4rem;
+    padding: 0 1rem;
+    color: #268bd2;
+}
+
+.footer-text{
+    font-size: 1.8rem;
+    color: whitesmoke;
+    margin: 0;
+}
+
+
 
 @media (max-width: 575px) {
     .title-icon {
