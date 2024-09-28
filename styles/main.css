@@ -51,11 +51,12 @@ footer {
 }
 
 .descriptions {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 1.6rem;
     line-height: 2.5rem;
     font-weight: 400;
     color:white;
+    text-indent: 2rem;
 }
 
 .bg-sections{
@@ -98,11 +99,11 @@ footer {
 }
 
 .title-icon {
-    font-size: 10rem;
+    font-size: 12rem;
     font-weight: 700;
     color: white;
-    padding: 1.5rem 5rem;
-    float: left;
+    text-align: center;
+    padding-top: 2rem;
 }
 
 .skills-icon {
@@ -145,10 +146,6 @@ footer {
 
 
 @media (max-width: 575px) {
-    .title-icon {
-        float: none;
-        text-align: center;
-    }
 
     .navbar-custom .navbar-brand{
         font-size: 2.4rem;   
@@ -173,10 +170,6 @@ footer {
 }
 
 @media (max-width: 767px) {
-    .title-icon {
-        float: none;
-        text-align: center;
-    }
 
     .navbar-custom .navbar-brand{
         font-size: 2.6rem;   
